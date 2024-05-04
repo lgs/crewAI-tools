@@ -45,6 +45,8 @@ class ArxivRetriveByTopicTool(BaseTool):
 
 # For testing purposes
 if __name__ == "__main__":
-    topic = "prompt"  # Replace "prompt" with your topic of interest
+    topic = (
+        "prompt engineering"  # Replace "prompt engineering" with your topic of interest
+    )
     tool = ArxivRetriveByTopicTool()
     tool._run(topic)
